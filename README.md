@@ -3,7 +3,7 @@
 Repository for the Unity-based SoftBots teleoperation system release.
 
 <p align="center">
-  <img src="path/to/scene_screenshot.png" alt="Teleoperation Scene Paused" width="600"/>
+  <img src="images/pause.png" alt="Teleoperation Scene Paused" width="600"/>
 </p>
 
 ## Description
