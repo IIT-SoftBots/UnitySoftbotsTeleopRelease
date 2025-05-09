@@ -17,6 +17,7 @@
     <meta-data android:name="com.oculus.telemetry.project_guid" android:value="ce256f81-4060-44da-9e99-c4d9c2f79032" />
     <meta-data android:name="com.oculus.supportedDevices" android:value="quest2|questpro|eureka" />
   </application>
+  <uses-permission android:name="android.permission.INTERNET" />
   <uses-feature android:name="android.hardware.vr.headtracking" android:version="1" android:required="true" />
   <uses-feature android:name="oculus.software.handtracking" android:required="false" />
   <uses-permission android:name="com.oculus.permission.HAND_TRACKING" />

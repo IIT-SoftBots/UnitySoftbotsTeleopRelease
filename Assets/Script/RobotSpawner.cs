@@ -9,7 +9,7 @@ public class RobotSpawner : MonoBehaviour
     public GameObject Alterego3Prefab;
     public Transform desk;
     private Dictionary<string, GameObject> spawnedRobots = new Dictionary<string, GameObject>();
-    //List<string> robotNames = new List<string> {"robot_twin"};
+    //List<string> robotNames = new List<string> { "robot_twin" };
     //List<string> robotNames = new List<string> { "robot_goldenego", "robot_alterego3", "robot_twin" };
     void Update()
     {

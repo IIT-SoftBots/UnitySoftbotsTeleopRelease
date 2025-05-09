@@ -65,18 +65,19 @@ public class UDPListener : MonoBehaviour
 
         while (isListening)
         {
+
             try
             {
                 byte[] receivedBytes = udpClient.Receive(ref endPoint);
                 string message = Encoding.ASCII.GetString(receivedBytes);
-                //Debug.Log("[UDPListener] Messaggio ricevuto: " + message);
+                Debug.LogWarning("[UDPListener] Messaggio ricevuto: " + message);
 
                 // Processa il messaggio ricevuto
                 ProcessMessage(message, endPoint);
             }
             catch (SocketException e)
             {
-                Debug.Log("Errore durante la ricezione del messaggio: " + e.Message);
+                Debug.LogWarning("Errore durante la ricezione del messaggio: " + e.Message);
             }
         }
     }
